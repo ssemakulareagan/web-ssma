@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frontend</title>
+<style>
+
+*{
+    border: 0;
+    margin: 0;
+}
+
+.browndiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(141, 71, 71);
+    border-bottom: solid orangered;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    padding-right: 15px;
+}
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+/*TRBL*/
+li button{
+    background-color: rgb(41, 11, 6);
+     padding: 10px 20px 10px 20px;
+     border-radius: 25px;
+     border: none;
+}
+
+.frontend{
+    color: white;
+}
+
+.master{
+    color: red;
+}
+
+body{
+    background-color: rgb(54, 51, 51);
+    color: white;
+}
+
+.formg{
+    margin: auto;
+ }
+
+ .password2{
+     padding: 15px 10px;
+     width: 400px;
+     padding-right: 35px;
+     border-radius: 8px;
+ }
+
+ .user1{
+     padding: 15px 10px;
+     width: 400px;
+     padding-right: 35px;
+     border-radius: 8px;
+   }
+   
+
+ .frontend2{
+     color: white;
+ }
+
+ .master1{
+     color: red;
+ }
+
+ .imagediv{
+     background-color: black;
+ }
+
+ #password{
+     padding-right: 40px;
+ }
+
+ .form{
+    padding-left: 300px; 
+ }
+
+ .button2{
+    background-color: tomato;
+     padding: 10px 20px 10px 20px;
+     border-radius: 25px;
+     border: none;
+ }
+
+ .button2:hover{
+    cursor: pointer;
+ }
+ .terms{
+    justify-content: flex-end;
+ }
+ .footerw2{
+     justify-content: left;
+ }
+ .log{
+     justify-content: right;
+     padding-right: 500px;
+ }
+ .links{
+     padding-top: 10px;
+ }
+.footer1{
+    display: flex;
+    justify-content: flex-start;
+     size-adjust: 25px;
+}
+.mainfooter{
+    background-color: black;
+    padding: 0px 40px 120px 40px;
+}
+.email{
+    color: white;
+}
+.move{
+    justify-content: left;
+}
+.links4{
+    display: flex;
+    justify-content: space-between;
+}
+.support{
+    padding-top: 10px;
+}
+.captions{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+</style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="browndiv">
+            <div class="frontendmaster">
+                <h1 class="frontend"><b>Frontend</b> <i class="master">Master</i></h1>
+            </div>
+            <div class="navlinks">
+<ul>
+<li><a href="#">courses</a></li>
+<li><a href="#">Learn</a></li>
+<li><a href="#">pricing</a></li>
+<li><a href="#">Login</a></li>
+<li><button><a href="#">Now</a></button></li>
+
+</ul>
+</div>
+        </div>
+
+
+
+</div>
+    </div>
+
+ <!--begining of the form div-->
+ <br><br>
+    <div class="form">
+    <form class="formg" >
+               <br><br><br><br><br><div>Username or email</div>
+        <div> <input class="user1" type="text" placeholder="username" id="username"></div><br>
+        <div>Password</div>
+        <div><input class="password2" type="password" placeholder="password" name="password" id="password"></div>
+        <label for="Remember Me"></label>
+        <br><br>
+        <input class="Remember Me" id="Remember Me" name="Remember Me" type="checkbox">Remember Me
+        <br><br>
+       <div>
+        <button class="button2" type="submit" class="button buttonred buttonlarge">Log in</button>Forgot your password
+       </div>
+    </form> <br><br>
+    </div><br><br><br>
+
+<!--End of form div-->
+<footer>
+    <div class="mainfooter">
+        <div class="footer1">
+            <div class="frontendmaster1">
+                <h1 class="frontend2"><b>Frontend</b> <i class="master1">Master</i></h1>
+                
+            </div>
+     
+        <div class="navlinks2">
+           <div class="links">
+            <ul>
+                <li><a href="#">courses</a></li>
+                <li><a href="#">Teachers</a></li>
+                <li><a href="#">Learn</a></li>
+                <li><a href="#">pricing</a></li>
+                <li><a href="#">login</a></li>
+                <li><a href="#">FAQ</a></li>
+            
+                </ul>
+           </div>
+        </div>
+        </div>
+        <div class="icons">
+            <img src="store.JPG" alt="log">
+            <img src="go.JPG" alt="log">
+        </div>
+        <div class="links4">
+          <div>
+            <a href="https://www.twitter.com"> <img src="twitter2.png" alt="logo" width="32px" height="32px"></a>
+            <a href="http://www.linkedin.com"><img src="linkedin.png" alt="logo" width="32px" height="32px"></a>
+           <a href="http://www.facebook.com"><img src="facebook-logo.jpg" alt="logo" width="32px" height="32px"></a>
+            <a href="http://www.instagram.com"><img src="instagram.png" alt="logo" width="32px" height="32px"></a>
+          </div>
+            <div class="support"><a href="#"><p><i class="email">Email</i>:support@frontendmasers.com</p></a></div>
+        </div><br><br>
+        <div class="captions">
+            <p>Frontend Masters is proudly made in Minneapolis, MN</p>
+            <p> &copy; 2022 Frontend Masters.Terms of service.privacy policy. </p>
+        </div>
+        
+       
+    </div>
+</footer>
+
+  
+       
+    
+
+</body>
+</html>
